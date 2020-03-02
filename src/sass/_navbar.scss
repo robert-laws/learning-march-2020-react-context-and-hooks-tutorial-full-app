@@ -1,0 +1,18 @@
+nav.navbar {
+  padding: 5px 5px 15px;
+  text-align: center;
+  background-color: #6D3D6D;
+
+  h1 {
+    margin: 15px 0;
+  }
+
+  ul {
+    padding: 0px;
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+}
