@@ -5,6 +5,8 @@ import { BookContextProvider } from './context/BookContext';
 import { Navbar } from './components/Navbar';
 import { BookList } from './components/BookList';
 import { BookForm } from './components/BookForm';
+import { DatabaseContextProvider } from './context/DatabaseContext';
+import { DatabaseList } from './components/DatabaseList';
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
         <BookList />
         <BookForm />
       </BookContextProvider>
+      <hr/>
+      <DatabaseContextProvider>
+        <DatabaseList />
+      </DatabaseContextProvider>
     </main>
   );
 }
